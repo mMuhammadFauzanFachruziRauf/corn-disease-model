@@ -1,8 +1,7 @@
 {
-  "name": "latihan-membangun-web-service",
+  "name": "latihan-membangun-web-service-ml",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon ./src/server/server.js",
@@ -12,12 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/firestore": "^7.7.0",
-    "@hapi/hapi": "^21.3.9",
+    "@google-cloud/firestore": "^7.10.0",
+    "@hapi/hapi": "^21.3.12",
     "@tensorflow/tfjs-node": "^4.14.0",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.7"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.0.2"
   }
 }
